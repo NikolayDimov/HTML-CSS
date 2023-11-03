@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+body {
+    font-family: 'Gelasio', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 70px;
+    color: white;
+    background-image: url('./images/map.jpg');
+    background-size: cover;
+    height: 70vh;
+    max-width: 1920px;
+    object-fit: cover;
+
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.header-top-logo {
+    width: 50px;
+}
+
+.header-top-logo img {
+    width: 100%;
+}
+
+
+.header-bottom {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.header-bottom .btn-click {
+    background: #146594;
+    color: white;
+    border-radius: 6px;
+    padding: 6px 12px;
+    border: none;
+    font-size: 22px;
+    
+}
+.header-bottom label {
+    text-align: center;
+}
+
+
+.header-top-btn {
+    background: transparent;
+    color: #cccccc;
+    border: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+/* Second part */
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+    
+}
+
+.wrapper {
+    display: flex;
+    
+    height: 1000px;
+}
+
+.combine {
+    flex-grow: 1;
+    height: 1000px;
+}
+
+
+.content-left {
+    background-image: url('./images/packing.jpg');
+    background-size: cover;
+    flex-grow: 1;
+}
+
+.content-right-top, .content-right-bottom {
+    height: 500px;
+    padding: 0;
+    margin: 0;
+}
+
+.content-right-top {
+    background-image: url('./images/planning.jpg');
+    background-size: cover;
+}
+
+.content-right-bottom {
+    background-image: url('./images/budget.jpg');
+    background-size: cover;
+}
+
+
+
+.content-left-img img {
+    width: 100%;
+}
+
+
+
+.content-right-top-img img {
+    width: 100%;
+}
+
+
+
+/* Positioning the text inside img */

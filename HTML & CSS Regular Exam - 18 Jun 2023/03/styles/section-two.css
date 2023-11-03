@@ -1,0 +1,28 @@
+.two .resize-width {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    padding-top: 5em;
+    padding-bottom: 6em;
+    gap: 1em;
+}
+
+.two-columns {
+    text-align: center;
+}
+
+.two-title {
+    font-size: 30px;
+    padding-bottom: 1em;
+}
+
+.separator {
+    width: 1px;
+    background-color: #ccc;
+    margin: 0 10px; /* Adjust the margin to control the space between elements */
+}
+
+
+.two-text {
+    font-size: 12px;
+}

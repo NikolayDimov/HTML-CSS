@@ -1,0 +1,230 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-site-title {
+    font-size: 36px;
+    padding-right: 25px;
+    position: relative;
+}
+
+.header-logo-site-title::after {
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: gray;
+    position: absolute;
+    right: 10px;
+}
+
+.header-logo-site-source {
+    color: gray;
+    font-weight: normal;
+}
+
+
+/* NAV */
+.header-nav-list {
+    display: flex;
+    padding-right: 0;
+}
+
+.header-nav-list-item {
+    list-style: none;
+    background: #ececec;
+    padding: 18px;
+    margin: 0 1px;
+}
+
+.header-nav-list-item-link {
+    text-decoration: none;
+    color: black;
+}
+
+.header-nav-list-item.active {
+    background-color: #f43f03;
+}
+
+.header-nav-list-item.active a {
+    color: white;
+}
+
+
+.header-nav-list-item:hover {
+    background-color: #f43f03;
+}
+
+.header-nav-list-item a:hover {
+    color: white;
+}
+
+
+
+/* MAIN */
+
+/* First part with picture and orange section */
+.intro-img {
+    width: 100%;
+}
+
+.intro-img img {
+    max-height: 600px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.intro-content {
+    text-align: center;
+    background: #f43f0e;
+    color: #fde5cd;
+    padding: 80px 160px;
+    margin-top: -10px;
+}
+.intro-content-text {
+    line-height: 2;
+}
+.intro-content-text a {
+    color: #fde5cd;
+}
+
+
+/* Second part with 4 icons */
+.benefits {
+    background: #383838;
+    padding: 80px 130px;
+    display: flex;
+}
+
+.benefit {
+    margin: 0 12px;
+}
+
+.benefit-img {
+    background: #f43f03;
+    padding: 30px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.benefit-img i {
+    color: white;
+    font-size: 55px;
+}
+
+.benefit-title {
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.benefit-title::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #596467;
+    position: absolute;
+    left: 0;
+    bottom: 18px;
+}
+
+.benefit:first-child .benefit-title::after {
+    bottom: 5px;
+}
+
+.benefit-text {
+    color: #596467;
+    text-align: center;
+}
+
+
+/* Third part - text with button */
+.cta {
+    background: #ffffff;
+    padding: 80px 100px;
+    text-align: center;
+}
+
+.cta-title {
+    color: #4c4c4c;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.cta-text {
+    margin-top: 0;
+    color: #acb1b6;
+}
+
+.cta-btn {
+    background: #1b9772;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 26px;
+    padding: 12px 26px;
+    border: none;
+}
+
+
+/* Fourth part - 4 text columns */
+.skills {
+    padding: 90px 50px;
+    display: flex;
+    align-items: center;
+    background: #383838;
+    text-align: center;
+}
+
+.skill {
+    margin: 0 10px;
+}
+
+.skill-title {
+    color: white;
+    margin-bottom: 40px;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.skill-text {
+    color: #747474;
+    line-height: 1.5;
+}
+
+
+/* Footer */
+footer {
+    padding: 100px;
+    text-align: center;
+    background: #009a6f;
+}
+
+.footer-text {
+    color: #5fb599;
+    letter-spacing: 1px;
+}
+
+.footer-text a {
+    color: #a7d7bf;
+    text-decoration: none;
+}

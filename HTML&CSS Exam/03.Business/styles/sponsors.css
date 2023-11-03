@@ -1,0 +1,59 @@
+
+
+.sponsors {
+    background-color: #fff;
+    padding: 2em 6em;
+
+}
+
+.sponsor-title {
+    font-family: "PT Serif", serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #b0815b;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.sponsor-text {
+    font-family: "PT Sans", sans-serif;
+    color: #5b395a;
+    font-size: 12px;
+    line-height: 2;
+    padding: 0 2em 2em 2em;
+    text-align: center;
+    
+}
+
+
+/* Icons */
+
+.sponsor-icons {
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-bottom: 2em;
+}
+
+.sponsor-icon {
+    width: 120px;
+    border-radius: 50%;
+    background-color: #dddddd;
+    aspect-ratio: 1/1;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.sponsor-icon img {
+    max-width: 70%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+hr {
+    color: #cccccc;
+}

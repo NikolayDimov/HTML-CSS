@@ -1,0 +1,57 @@
+
+.two {
+    padding: 2em 0;
+}
+
+.two-top {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.two-title {
+    text-align: center;
+}
+
+.two-text {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.two-articles {
+    display: flex;
+    gap: 4em;
+    justify-content: space-evenly;
+    
+}
+
+.two-single-article {
+    width: 20%;
+}
+
+.two-single-article-icon {
+    text-align: center;
+    padding-left: 3em;
+}
+
+.two-single-article-icon i {
+    color: #85dcff;
+}
+
+.two-single-article-icon {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.two-single-article-title {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.two-single-article-text {
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+}

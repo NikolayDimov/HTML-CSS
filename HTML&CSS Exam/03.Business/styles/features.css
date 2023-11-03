@@ -1,0 +1,39 @@
+
+
+.features {
+    background-color: #fff;
+}
+
+.features .container {
+    display: flex;
+    padding: 4em 6em;
+    gap: 2.5em;
+}
+
+.feature-item h1 {
+    font-family: "PT Serif", serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: #352629;
+    padding-bottom: 0.3em;
+}
+
+
+.feature-item .text {
+    font-family: "PT Sans", sans-serif;
+    color: #5b395a;
+    font-size: 12px;
+    line-height: 1.8;
+    padding-bottom: 2em;
+    
+}
+
+
+.feature-item-btn a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #a77348;
+    border: 1px solid #a77348;
+    padding: 0.8em 1.5em;
+}

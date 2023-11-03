@@ -1,0 +1,32 @@
+
+body {
+    background-image: url(/images/background.jpg);
+    background-size: contain;
+    /* background-position: inherit; */
+    background-repeat: no-repeat;
+}
+
+.hero-container {
+    width: 43%;
+    margin: 3em 6em 11em 6em;
+    color: #ffffff;
+}
+
+.hero-title {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.hero-title-last {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-size: 40px;
+    padding-bottom: 1em;
+
+}
+
+.hero-desc {
+    font-family: "PT Sans", sans-serif;
+    line-height: 1.8;
+}

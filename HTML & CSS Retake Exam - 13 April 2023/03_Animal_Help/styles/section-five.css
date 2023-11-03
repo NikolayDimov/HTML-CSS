@@ -1,0 +1,65 @@
+
+.five {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.five-img {
+    flex-basis: 50%;
+    align-items: center;
+    list-style: none;
+    margin-right: 2em;
+}
+
+.five-img img {
+    width: 100%;
+    height: auto;
+}
+
+.five-content {
+    flex-basis: 40%;
+    padding: 2em 2em;
+   
+}
+
+
+
+.five-title {
+    margin-bottom: 1em;
+}
+
+.five-subtitle {
+    margin-bottom: 2em;
+}
+
+
+.five-content input {
+    padding: 1em 3em;
+    border-radius: 4px;
+    margin-bottom: 3em;
+}
+
+.five-content input::placeholder{
+    font-size: 18px;
+}
+
+.five-btn {
+    width: 34%;
+    padding: 12px 52px;
+    border: 1px solid black;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 6px;
+ 
+    background-color: black;
+} 
+
+
+
+.five-btn-btn {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}

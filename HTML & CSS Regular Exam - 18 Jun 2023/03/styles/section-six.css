@@ -1,0 +1,56 @@
+.six {
+    background: #ade2df;
+    text-align: center;
+    padding-bottom: 3em;
+    
+}
+
+.resize-width-six {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.six-title {
+    font-size: 42px;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+
+.six-subtitle {
+    padding-bottom: 1em;
+}
+
+.six-subtitle-h3 {
+    font-size: 14px;
+    font-weight: normal;
+
+}
+
+.six-buttons {
+    padding: 2em;
+}
+
+.iOS {
+    background-color: #000000;
+    color: white;
+    padding: 1em 2em;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;  
+    margin-right: 10px; 
+}
+
+.android {
+    background-color: #000000;
+    color: white;
+    padding: 1em 2em;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+}
+
+i {
+    color: white;
+    margin-right: 0.5em;
+}

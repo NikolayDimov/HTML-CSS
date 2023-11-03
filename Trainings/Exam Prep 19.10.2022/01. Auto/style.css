@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.section .info .title {
+    margin-bottom: 32px;
+}
+
+
+.section .info,
+.sectin .picture {
+    width: 50%;
+}
+
+.features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.features .feature {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.features .feature .feature-icon {
+    width: 80px;
+}
+
+p {
+    color: gray;
+}
+
+.feature .feature-title{
+    margin-bottom: 0;
+}
+
+.feature .feature-desc {
+    margin-top: 0;
+}

@@ -1,0 +1,39 @@
+.header {
+    background: #ffffff;
+    padding: 2em;
+}
+
+.header .resize-width {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+}
+
+.header-nav-ul {
+    display: flex;
+}
+
+
+.header-nav-ul {
+    list-style: none;
+}
+
+.header-nav-ul a {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    color: #040001;
+    font-size: 14px;
+}
+
+
+.header-login-form a {
+    text-decoration: none;
+    color: #040001;
+    padding: 12px 20px;
+    font-size: 14px;
+}
+
+.signin {
+    background: #ade2df;
+    border-radius: 4px;
+}

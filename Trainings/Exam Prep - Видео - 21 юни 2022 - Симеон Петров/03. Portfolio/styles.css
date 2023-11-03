@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2family=Raleway:wght@100;300;400;500;600&display=swap");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+
+body {
+    padding: 2rem;
+    font-family: "Raleway", sans-serif;
+}
+
+/* 
+1 rem is 16px
+2 rem is 32px 
+*/
+
+/* 
+    -----------------
+    utilities
+    ----------------
+ */
+.section {
+    background-color: #efefef;
+    padding: 5rem;
+    margin-bottom: 2rem;
+    height: 70vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-item-wide {
+    width: 55%;
+}
+
+.section-item-narrow {
+    width: calc(45% - 6rem);
+}
+
+.divider {
+    background: darkgray;
+}
+
+.divider.divider-vertical {
+    width: 2px;
+    height: 5rem;
+}
+
+.divider.divider-horizontal {
+    height: 2px;
+    width: 5rem;
+}
+ /* 
+    -----------------
+    layout
+    ----------------
+ */
+
+
+
+/* Header */
+.header {
+    display: none;
+}
+
+.section-info {
+    width: 45%;
+}
+
+
+.section-info-title {
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.section-info-title .accent {
+    font-weight: bold;
+}
+
+.section-info-desc {
+    font-size: 1.75rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+#hero {
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+#hero .section-img {
+    position: absolute;
+    bottom: 0px;
+    right: 5rem;
+    width: 45%;
+}
+
+
+
+/* Purpose */
+#purpose .title-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#purpose {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* #purpose .info {
+    width: 50%;
+}
+
+#purpose img {
+    width: 37%;
+    margin-left: auto;
+    margin-right: 6rem;
+} */
+
+#purpose .section-info-title {
+    margin-left: 2.5rem;
+}
+
+#purpose .section-info-desc {
+    margin-bottom: 2rem;
+}
+
+#purpose .socials {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-left: 0;
+    margin-bottom: 4rem;
+}
+
+.social {
+    list-style: none;
+}
+
+.social-link {
+    width: 3rem;
+    height: 3rem;
+    text-decoration: none;
+    background: #909090;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link i {
+    color: white;
+}
+
+
+/* Poster */
+#poster.section {
+    padding: unset;
+}
+
+#poster .background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Gallery */
+#gallery img {
+    width: 33.33%;
+}
+
+#gallery img:nth-child(2) {
+    transform: scale(1.5);
+}
+
+
+
+/* Featured */
+
+#featured {
+    display: flex;
+}
+
+
+/* Contacts */
+#contacts .gallery-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contacts .section-info-desc {
+    margin-bottom: 2.5rem;
+}
+
+#contacts .form {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-areas: 
+    'email subject'
+    'msg msg'
+    'btn btn';
+}
+
+#contacts .form .email {
+    grid-area: email;
+    border: 1px solid black;
+    padding: 0.5rem;
+    background: transparent;
+}
+#contacts .form .subject {
+    grid-area: subject;
+    border: 1px solid black;
+    padding: 0.5rem;
+    background: transparent;
+}
+#contacts .form .msg {
+    grid-area: msg;
+    border: 1px solid black;
+    padding: 0.5rem;
+    background: transparent;
+}
+#contacts .form .btn {
+    grid-area: btn;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.5rem;
+}

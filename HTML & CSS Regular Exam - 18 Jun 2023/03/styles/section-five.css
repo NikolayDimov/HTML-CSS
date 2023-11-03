@@ -1,0 +1,129 @@
+.five {
+    display: flex;
+    border-radius: 14px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    background-color: white;
+}
+
+.five-pricing-plans {
+    display: flex;
+}
+
+/* .five-pricing-plans {
+    flex-grow: 1;
+}
+
+.five-content {
+    flex-grow: 2;
+} */
+
+.five-pricing-plans-plan {
+    padding: 1em 1em;
+}
+
+.five-pricing-plans-plan-bottom-part ul {
+    list-style: none;
+}
+
+.five-pricing-plans-plan-bottom-part i {
+    color: black;
+}
+
+.five-pricing-plans-plan-top-part {
+    padding-bottom: 1em;
+    line-height: 1.5;
+}
+
+.five-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.five-cost {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0.5em 0;
+    margin-bottom: 0;
+    text-align: start;
+}
+
+.five-pricing-plans-plan-bottom-part {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    line-height: 2;
+    font-size: 12px;
+}
+
+
+
+.five-pricing-plans-plan-btn {
+    background: #ade2df;
+    padding: 14px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.five-pricing-plans-plan-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+
+hr {
+    height: 1px;
+    color: #ccc;
+}
+
+.five-cost-small {
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+.five-content {
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: space-between;
+    background: #ade2df;
+    padding: 1em;
+}
+
+.five-content-title {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+.five-content-text {
+    font-weight: bold;
+}
+
+.five-content-list-ul {
+    padding-top: 1em;
+    font-size: 12px;
+    margin-bottom: 15em;
+    line-height: 2;
+}
+
+.five-content-list i {
+    color: black;
+}
+
+.five-content-list-ul {
+    list-style: none;
+}
+
+.five-content-btn {
+    background-color: black;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    border-radius: 6px;
+}
